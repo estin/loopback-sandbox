@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server/server.js",
   "scripts": {
-    "pretest": "jshint ."
+    "test": "./node_modules/.bin/mocha"
   },
   "dependencies": {
     "compression": "^1.0.3",
@@ -17,7 +17,8 @@
     "loopback-explorer": "^1.1.0"
   },
   "devDependencies": {
-    "jshint": "^2.5.6"
+    "jshint": "^2.5.6",
+    "mocha": "latest"
   },
   "repository": {
     "type": "",
